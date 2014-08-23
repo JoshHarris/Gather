@@ -1,0 +1,9 @@
+{
+  "name": "Gather",
+  "version": "0.1.0",
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-watch": "^0.6.1",
+    "include-all": "^0.1.6"
+  }
+}
