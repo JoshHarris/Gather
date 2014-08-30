@@ -1,9 +1,24 @@
 {
-  "name": "Gather",
-  "version": "0.1.0",
-  "devDependencies": {
-    "grunt": "^0.4.5",
-    "grunt-contrib-watch": "^0.6.1",
-    "include-all": "^0.1.6"
-  }
+    "name": "Gather",
+    "version": "0.1.0",
+    "devDependencies": {
+        "gulp": "^3.8.7",
+        "gulp-jshint": "^1.8.4",
+        "jshint-stylish": "^0.4.0"
+    },
+    "engines": {
+        "node": "0.10.x"
+    },
+    "dependencies": {
+        "express": "~4.2.0",
+        "body-parser": "~1.0.0",
+        "mongoose": "~3.8.11",
+        "static-favicon": "~1.0.0",
+        "morgan": "~1.0.0",
+        "cookie-parser": "~1.0.1",
+        "debug": "~0.7.4",
+        "jade": "~1.3.0",
+        "mongodb": "*",
+        "monk": "*"
+    }
 }
