@@ -1,4 +1,4 @@
-var Gathering = require('../models/gathering');
+var Gathering = require('../models/gathering2');
 var express = require('express');
 var router = express.Router();
 
